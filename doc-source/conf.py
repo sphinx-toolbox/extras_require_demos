@@ -56,53 +56,15 @@ html_theme_options = {
 
 		}
 html_theme_path = ["../.."]
-# html_logo = "logo/pyms.png"
 html_show_sourcelink = False  # True will show link to source
 
 html_context = {
-		# Github Settings
 		"display_github": False,  # Integrate GitHub
-		"conf_py_path": "/",  # Path in the checkout to the docs root
+		"conf_py_path": "/doc-source",  # Path in the checkout to the docs root
 		}
 
 htmlhelp_basename = slug
 
-latex_documents = [
-		('index', '{0}.tex'.format(slug), project, author, 'manual'),
-		]
-
-man_pages = [
-		('index', slug, project, [author], 1)
-		]
-
-texinfo_documents = [
-		('index', slug, project, author, slug, project, 'Miscellaneous'),
-		]
-
-
-# Extensions to theme docs
-def setup(app):
-	from sphinx.domains.python import PyField
-	from sphinx.util.docfields import Field
-
-	app.add_object_type(
-			'confval',
-			'confval',
-			objname='configuration value',
-			indextemplate='pair: %s; configuration value',
-			doc_field_types=[
-					PyField(
-							'type',
-							label=_('Type'),
-							has_arg=False,
-							names=('type',),
-							bodyrolename='class'
-							),
-					Field(
-							'default',
-							label=_('Default'),
-							has_arg=False,
-							names=('default',),
-							),
-					]
-			)
+latex_documents = [('index', f'{slug}.tex', project, author, 'manual')]
+man_pages = [('index', slug, project, [author], 1)]
+texinfo_documents = [('index', slug, project, author, slug, project, 'Miscellaneous')]
