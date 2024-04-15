@@ -1,6 +1,6 @@
-########################################
-:mod:`demos.requirements_txt_subpackage`
-########################################
+########################################################
+:mod:`extras_require_demos.requirements_txt_subpackage`
+########################################################
 
 This is an example of defining requirements in a ``requirements.txt`` file.
 
@@ -15,7 +15,5 @@ It was created with the following code:
 .. extras-require:: extra_a
 	:file: requirements_txt_subpackage/requirements.txt
 
-.. automodule:: demos.requirements_txt_subpackage
+.. automodule:: extras_require_demos.requirements_txt_subpackage
 	:members:
-
-

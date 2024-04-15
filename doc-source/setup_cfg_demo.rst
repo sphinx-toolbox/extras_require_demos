@@ -1,6 +1,6 @@
-########################################
-:mod:`demos.setup_cfg_subpackage`
-########################################
+################################################
+:mod:`extras_require_demos.setup_cfg_subpackage`
+################################################
 
 This is an example of defining requirements in a ``setup.cfg`` file.
 
@@ -15,7 +15,5 @@ It was created with the following code:
 .. extras-require:: extra_c
 	:setup.cfg:
 
-.. automodule:: demos.setup_cfg_subpackage
+.. automodule:: extras_require_demos.setup_cfg_subpackage
 	:members:
-
-

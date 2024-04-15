@@ -1,0 +1,20 @@
+# Configuration for 'repo_helper' (https://github.com/repo-helper/repo_helper)
+---
+modname: 'extras_require_demos'
+copyright_years: '2020-2024'
+author: 'Dominic Davis-Foster'
+email: 'dominic@davis-foster.co.uk'
+username: 'domdfcoding'
+version: '1.0.0'
+license: 'MIT'
+short_desc: 'Demonstrations of the "extras_require" Sphinx extension.'
+
+enable_conda: false
+enable_tests: false
+use_whey: true
+
+exclude_files:
+ - pre-commit
+ - pkginfo
+ - contributing
+ - Source_rst

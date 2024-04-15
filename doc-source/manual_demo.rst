@@ -1,6 +1,6 @@
-########################################
-:mod:`demos.manual_subpackage`
-########################################
+##############################################
+:mod:`extras_require_demos.manual_subpackage`
+##############################################
 
 This is an example of defining requirements manually.
 
@@ -17,7 +17,5 @@ It was created with the following code:
 
 	pytz >=2019.1
 
-.. automodule:: demos.manual_subpackage
+.. automodule:: extras_require_demos.manual_subpackage
 	:members:
-
-

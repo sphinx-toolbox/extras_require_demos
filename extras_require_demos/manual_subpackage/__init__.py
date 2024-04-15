@@ -1,4 +1,4 @@
-def function_b(arg1, arg2=0, arg3="abc"):
+def function_d(arg1, arg2=0, arg3="abc"):
 	"""
 	This function does something
 

@@ -1,6 +1,6 @@
-########################################
-:mod:`demos.pkginfo_subpackage`
-########################################
+###############################################
+:mod:`extras_require_demos.pkginfo_subpackage`
+###############################################
 
 This is an example of defining requirements in a ``__pkginfo__.py`` file.
 
@@ -15,7 +15,5 @@ It was created with the following code:
 .. extras-require:: extra_b
 	:__pkginfo__:
 
-.. automodule:: demos.pkginfo_subpackage
+.. automodule:: extras_require_demos.pkginfo_subpackage
 	:members:
-
-
