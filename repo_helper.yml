@@ -12,6 +12,7 @@ short_desc: 'Demonstrations of the "extras_require" Sphinx extension.'
 enable_conda: false
 enable_tests: false
 use_whey: true
+on_pypi: false
 
 exclude_files:
  - pre-commit
