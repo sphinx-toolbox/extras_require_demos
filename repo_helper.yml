@@ -19,3 +19,6 @@ exclude_files:
  - pkginfo
  - contributing
  - Source_rst
+
+manifest_additional:
+  - include extras_require_demos/requirements_txt_subpackage/requirements.txt
