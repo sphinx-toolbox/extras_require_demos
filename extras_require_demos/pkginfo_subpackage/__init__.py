@@ -1,6 +1,6 @@
 def function_b(arg1, arg2=0, arg3="abc"):
 	"""
-	This function does something
+	This function does something.
 
 	:param arg1: An argument
 	:type arg1: any
