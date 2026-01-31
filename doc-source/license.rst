@@ -7,4 +7,4 @@ License
 .. license-info:: MIT
 
 .. license::
-	:py: extras_require_demos
+	:py: extras-require-demos

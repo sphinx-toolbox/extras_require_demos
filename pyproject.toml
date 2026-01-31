@@ -3,7 +3,7 @@ requires = [ "whey",]
 build-backend = "whey"
 
 [project]
-name = "extras_require_demos"
+name = "extras-require-demos"
 version = "1.0.0"
 description = 'Demonstrations of the "extras_require" Sphinx extension.'
 readme = "README.rst"
@@ -30,6 +30,7 @@ python-implementations = [ "CPython",]
 platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
 additional-files = [ "include extras_require_demos/requirements_txt_subpackage/requirements.txt",]
+package = "extras_require_demos"
 
 [tool.importcheck]
 
